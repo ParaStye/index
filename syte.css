@@ -1,0 +1,32 @@
+@charset "utf-8";
+*{ margin: 0 auto; padding: 0; font-family: "맑은고딕";}
+
+.header { width: 700px; height: 50px; }
+
+.logo > img { width: 75px; height: 50px; float: left;}
+
+.menu > li{ width:100px; height: 30px; background-color: white;
+            line-height: 40px;  float: left; list-style: none;
+            text-align: center;  color: black; 
+            transition: all 0.5s; position: relative;}
+
+.menu > li:hover { background-color: gray}
+
+.id { width: 700px; height: 50px;  }
+
+.pw { width: 700px; height: 50px; margin-top: 5px; }
+
+.email { width: 700px; height: 50px; margin-top: 5px; }
+
+.juso { width: 700px; height: 50px; margin-top: 5px; }
+
+.call {width: 700px; height: 50px; margin-top: 5px; }
+.call > input { width: 50px;}
+
+.home { width: 700px; height: 50px; margin-top: 5px; }
+
+.end { width: 700px; height: 50px; margin-top: 5px;  margin-left: 600px; }
+
+.footer { width: 600px; height: 70px;background-color: orange; border: 1px solid black; border-radius:                10px; margin-top: 100px; margin-right: 510px; color: black; }
+
+.footer > p { margin: 25px 0 0 120px; font-size: 16px;}

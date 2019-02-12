@@ -1,0 +1,35 @@
+@charset "utf-8";
+*{ margin: 0 auto; padding: 0; font-family: "맑은고딕";}
+
+
+
+.header { width: 700px; height: 50px; }
+
+.logo > img { width: 75px; height: 50px; float: left;}
+
+.menu > li{ width:100px; height: 30px; background-color: white;
+            line-height: 40px;  float: left; list-style: none;
+            text-align: center;  color: black; margin: 0 auto;
+            position: relative;}
+
+.menu > li:hover { background-color: gray;}
+
+.nav { width: 700px; height: 200px; }
+
+.imgs > img { width: 600px; height: 200px;}
+
+.sec { width: 700px; height: 300px;  }
+
+.black > img  { width: 400px; height: 300px;}
+
+.black text { width: 200px; height: 300px; float: left; }
+
+.text > h5 { font-size: 30; }
+
+.esc { width: 700px; height: 300px; margin-top: 58px;}
+
+.blue > img { width: 400px; height: 300px;}
+
+.footer { width: 600px; height: 70px; background-color: orange; border: 1px solid black; border-radius:                10px; margin-top: 100px; margin-right: 510px; color: black; }
+
+.footer > p { margin: 25px 0 0 120px; font-size: 16px;}
